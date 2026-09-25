@@ -2361,3 +2361,9 @@ body.menu-open {
 #checkoutForm button[type="submit"]:active {
     transform: scale(0.99);
 }
+.quantity-btn {
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-select: none;
+    user-select: none;
+}

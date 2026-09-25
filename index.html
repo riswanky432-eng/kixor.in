@@ -1,0 +1,1978 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kixor — Premium Sneakers</title>
+ 
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+
+        <div class="header-left">
+            <button class="menu-btn" aria-label="Menu">☰</button>
+
+            <nav class="desktop-nav">
+                <a href="#new-arrivals">NEW ARRIVALS</a>
+                <a href="#men">MEN</a>
+                <a href="#women">WOMEN</a>
+                <a href="#sale">SALE</a>
+            </nav>
+        </div>
+
+       <a href="#" class="logo">
+    <img src="logo.png" alt="Kixor">
+</a>
+
+        <div class="header-actions">
+            <button id="searchButton" aria-label="Search">⌕</button>
+            <button id="cartButton" aria-label="Cart" type="button">
+    🛍
+    <span id="cartCount">0</span>
+</button>
+        </div>
+
+    </header>
+    <!-- SEARCH BOX -->
+
+<div class="search-box" id="searchBox">
+
+    <div class="search-input-row">
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search sneakers..."
+            autocomplete="off"
+        >
+
+        <button id="closeSearch" type="button">×</button>
+
+    </div>
+
+    <div id="searchResults" class="search-results"></div>
+
+</div>
+
+    <!-- HERO VIDEO -->
+    <section class="hero">
+
+        <video
+            class="hero-video"
+            autoplay
+            muted
+            loop
+            playsinline
+            poster="hero-poster.jpg">
+
+            <source src="shoe-video.mp4" type="video/mp4">
+
+        </video>
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+
+            <p class="hero-small">KIXOR.IN</p>
+
+            <h1>YOUR SNEAKER<br><span>DESTINATION.</span></h1>
+
+            <p class="hero-text">
+                Unisex Premium sneakers.
+            </p>
+
+            <a href="#new-arrivals" class="hero-btn">
+                SHOP NOW
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- NEW ARRIVALS -->
+    <section class="products-section" id="new-arrivals">
+
+        <div class="section-heading">
+
+            <div>
+                <p class="eyebrow">LATEST DROPS</p>
+                <h2>New Arrivals</h2>
+            </div>
+
+            <a href="#all-products">VIEW ALL →</a>
+
+        </div>
+
+        <!-- PRODUCT GRID -->
+        <div class="product-grid" id="all-products">
+
+            <!-- PRODUCT 1 -->
+<article class="product-card" data-category="men">
+
+    <a href="#product">
+
+        <div class="product-gallery">
+
+            <div class="gallery-main">
+
+                <span class="sale-badge">SALE</span>
+
+                <img
+                    id="mainProductImage"
+                    src="p6000-main.jpg"
+                    alt="Nike P-6000 Gold White">
+
+            </div>
+
+            <div class="gallery-thumbs">
+
+                <button class="gallery-thumb active" onclick="changeProductImage('p6000-main.jpg', this)">
+                    <img src="p6000-main.jpg" alt="Nike P-6000 front">
+                </button>
+
+                <button class="gallery-thumb" onclick="changeProductImage('p6000-2.jpg', this)">
+                    <img src="p6000-2.jpg" alt="Nike P-6000 angle 2">
+                </button>
+
+                <button class="gallery-thumb" onclick="changeProductImage('p6000-3.jpg', this)">
+                    <img src="p6000-3.jpg" alt="Nike P-6000 angle 3">
+                </button>
+
+                <button class="gallery-thumb" onclick="changeProductImage('p6000-4.jpg', this)">
+                    <img src="p6000-4.jpg" alt="Nike P-6000 angle 4">
+                </button>
+
+                <button class="gallery-thumb" onclick="changeProductImage('p6000-5.jpg', this)">
+                    <img src="p6000-5.jpg" alt="Nike P-6000 angle 5">
+                </button>
+
+                <button class="gallery-thumb" onclick="changeProductImage('p6000-6.jpg', this)">
+                    <img src="p6000-6.jpg" alt="Nike P-6000 angle 6">
+                </button>
+
+                <button class="gallery-thumb" onclick="changeProductImage('p6000-7.jpg', this)">
+                    <img src="p6000-7.jpg" alt="Nike P-6000 angle 7">
+                </button>
+
+                <button class="gallery-thumb" onclick="changeProductImage('p6000-8.jpg', this)">
+                    <img src="p6000-8.jpg" alt="Nike P-6000 angle 8">
+                </button>
+
+            </div>
+
+        </div>
+
+    </a>
+
+    <div class="product-info">
+
+        <p class="product-category">MEN'S SNEAKERS</p>
+
+        <h3>NIKE P-6000 TRAINER METALLIC GOLD</h3>
+
+        <div class="price">
+            <span class="old-price">₹3,699</span>
+            <span class="current-price">₹2,699</span>
+        </div>
+
+        <div class="quick-sizes">
+            <span>40</span>
+            <span>41</span>
+            <span>42</span>
+            <span>43</span>
+            <span>44</span>
+            <span>45</span>
+        </div>
+
+        <a
+            class="quick-order"
+            href="https://wa.me/919656591308?text=Hi%20Kixor%2C%20I%27d%20like%20to%20order%20Nike%20P-6000%20Gold%2FWhite."
+            target="_blank">
+
+            ORDER ON WHATSAPP
+
+        </a>
+
+        <button class="add-to-cart" type="button">
+    ADD TO CART
+</button>
+
+    </div>
+
+</article>
+
+<!-- PRODUCT 2 -->
+<article class="product-card" data-category="unisex">
+
+    <div class="product-gallery">
+
+        <div class="gallery-main">
+
+            <span class="sale-badge">SALE</span>
+
+            <img
+                src="p6000silver-main.jpg"
+                alt="Nike P-6000 Trainer Metallic Silver">
+
+        </div>
+
+        <div class="gallery-thumbs">
+
+            <button class="gallery-thumb active"
+                onclick="changeProductImage('p6000silver-main.jpg', this)">
+                <img
+                    src="p6000silver-main.jpg"
+                    alt="Nike P-6000 Trainer Metallic Silver front">
+            </button>
+
+            <button class="gallery-thumb"
+                onclick="changeProductImage('p6000silver-2.jpg', this)">
+                <img
+                    src="p6000silver-2.jpg"
+                    alt="Nike P-6000 Trainer Metallic Silver">
+            </button>
+
+            <button class="gallery-thumb"
+                onclick="changeProductImage('p6000silver-3.jpg', this)">
+                <img
+                    src="p6000silver-3.jpg"
+                    alt="Nike P-6000 Trainer Metallic Silver">
+            </button>
+
+            <button class="gallery-thumb"
+                onclick="changeProductImage('p6000silver-4.jpg', this)">
+                <img
+                    src="p6000silver-4.jpg"
+                    alt="Nike P-6000 Trainer Metallic Silver">
+            </button>
+
+            <button class="gallery-thumb"
+                onclick="changeProductImage('p6000silver-5.jpg', this)">
+                <img
+                    src="p6000silver-5.jpg"
+                    alt="Nike P-6000 Trainer Metallic Silver">
+            </button>
+
+            <button class="gallery-thumb"
+                onclick="changeProductImage('p6000silver-6.jpg', this)">
+                <img
+                    src="p6000silver-6.jpg"
+                    alt="Nike P-6000 Trainer Metallic Silver">
+            </button>
+
+            <button class="gallery-thumb"
+                onclick="changeProductImage('p6000silver-7.jpg', this)">
+                <img
+                    src="p6000silver-7.jpg"
+                    alt="Nike P-6000 Trainer Metallic Silver">
+            </button>
+
+            <button class="gallery-thumb"
+                onclick="changeProductImage('p6000silver-8.jpg', this)">
+                <img
+                    src="p6000silver-8.jpg"
+                    alt="Nike P-6000 Trainer Metallic Silver">
+            </button>
+
+        </div>
+
+    </div>
+
+    <div class="product-info">
+
+        <p class="product-category">UNISEX SNEAKERS</p>
+
+        <h3>NIKE P-6000 TRAINER METALLIC SILVER</h3>
+
+        <div class="price">
+            <span class="old-price">₹3,699</span>
+            <span class="current-price">₹2,699</span>
+        </div>
+
+        <div class="quick-sizes">
+
+            <button class="size-option" data-size="36">36</button>
+            <button class="size-option" data-size="37">37</button>
+            <button class="size-option" data-size="38">38</button>
+            <button class="size-option" data-size="39">39</button>
+            <button class="size-option" data-size="40">40</button>
+            <button class="size-option" data-size="41">41</button>
+            <button class="size-option" data-size="42">42</button>
+            <button class="size-option" data-size="43">43</button>
+            <button class="size-option" data-size="44">44</button>
+            <button class="size-option" data-size="45">45</button>
+
+        </div>
+
+        <a
+            class="quick-order"
+            href="https://wa.me/919656591308?text=Hi%2C%20I%20want%20to%20order%20NIKE%20P-6000%20TRAINER%20METALLIC%20SILVER"
+            target="_blank"
+            rel="noopener noreferrer">
+            ORDER ON WHATSAPP
+        </a>
+
+        <button class="add-to-cart" type="button">
+            ADD TO CART
+        </button>
+
+    </div>
+
+</article>
+
+<!-- PRODUCT 3 -->
+<article class="product-card" data-category="women">
+
+    <a href="#product">
+
+        <div class="product-gallery">
+
+            <div class="gallery-main">
+
+                <span class="sale-badge">SALE</span>
+
+                <img
+                    src="rhinestonesblack-main.jpg"
+                    alt="Adidas Sambas Black and Silver Rhinestones">
+
+            </div>
+
+            <div class="gallery-thumbs">
+
+                <button class="gallery-thumb active"
+                    onclick="changeProductImage('rhinestonesblack-main.jpg', this)">
+                    <img src="rhinestonesblack-main.jpg"
+                        alt="Adidas Sambas Black and Silver Rhinestones front">
+                </button>
+
+                <button class="gallery-thumb"
+                    onclick="changeProductImage('rhinestonesblack-2.jpg', this)">
+                    <img src="rhinestonesblack-2.jpg"
+                        alt="Adidas Sambas Black and Silver Rhinestones angle 2">
+                </button>
+
+                <button class="gallery-thumb"
+                    onclick="changeProductImage('rhinestonesblack-3.jpg', this)">
+                    <img src="rhinestonesblack-3.jpg"
+                        alt="Adidas Sambas Black and Silver Rhinestones angle 3">
+                </button>
+
+                <button class="gallery-thumb"
+                    onclick="changeProductImage('rhinestonesblack-4.jpg', this)">
+                    <img src="rhinestonesblack-4.jpg"
+                        alt="Adidas Sambas Black and Silver Rhinestones angle 4">
+                </button>
+
+                <button class="gallery-thumb"
+                    onclick="changeProductImage('rhinestonesblack-5.jpg', this)">
+                    <img src="rhinestonesblack-5.jpg"
+                        alt="Adidas Sambas Black and Silver Rhinestones angle 5">
+                </button>
+
+                <button class="gallery-thumb"
+                    onclick="changeProductImage('rhinestonesblack-6.jpg', this)">
+                    <img src="rhinestonesblack-6.jpg"
+                        alt="Adidas Sambas Black and Silver Rhinestones angle 6">
+                </button>
+
+                <button class="gallery-thumb"
+                    onclick="changeProductImage('rhinestonesblack-7.jpg', this)">
+                    <img src="rhinestonesblack-7.jpg"
+                        alt="Adidas Sambas Black and Silver Rhinestones angle 7">
+                </button>
+
+            </div>
+
+        </div>
+
+    </a>
+
+    <div class="product-info">
+
+        <p class="product-category">WOMEN'S SNEAKERS</p>
+
+        <h3>ADIDAS SAMBAS BLACK AND SILVER RHINESTONES</h3>
+
+        <div class="price">
+            <span class="old-price">₹3,499</span>
+            <span class="current-price">₹2,599</span>
+        </div>
+
+        <div class="quick-sizes">
+            <span>36</span>
+            <span>37</span>
+            <span>38</span>
+            <span>39</span>
+            <span>40</span>
+        </div>
+
+        <a
+            class="quick-order"
+            href="https://wa.me/919656591308?text=Hi%20Kixor%2C%20I%27d%20like%20to%20order%20Adidas%20Sambas%20Black%20and%20Silver%20Rhinestones."
+            target="_blank">
+
+            ORDER ON WHATSAPP
+
+        </a>
+
+        <button class="add-to-cart" type="button">
+    ADD TO CART
+</button>
+
+    </div>
+
+</article>
+<!-- PRODUCT 4 -->
+<article class="product-card" data-category="unisex">
+
+    <a href="#product">
+
+        <div class="product-gallery">
+
+            <div class="gallery-main">
+
+                <span class="sale-badge">SALE</span>
+
+                <img
+                    src="sambawalesbonner-main.jpg"
+                    alt="Adidas Samba X Wales Bonner Silver LTD EDTN">
+
+            </div>
+
+            <div class="gallery-thumbs">
+
+                <button class="gallery-thumb active"
+                    onclick="changeProductImage('sambawalesbonner-main.jpg', this)">
+                    <img src="sambawalesbonner-main.jpg"
+                        alt="Adidas Samba X Wales Bonner Silver LTD EDTN front">
+                </button>
+
+                <button class="gallery-thumb"
+                    onclick="changeProductImage('sambawalesbonner-2.jpg', this)">
+                    <img src="sambawalesbonner-2.jpg" alt="Angle 2">
+                </button>
+
+                <button class="gallery-thumb"
+                    onclick="changeProductImage('sambawalesbonner-3.jpg', this)">
+                    <img src="sambawalesbonner-3.jpg" alt="Angle 3">
+                </button>
+
+                <button class="gallery-thumb"
+                    onclick="changeProductImage('sambawalesbonner-4.jpg', this)">
+                    <img src="sambawalesbonner-4.jpg" alt="Angle 4">
+                </button>
+
+                <button class="gallery-thumb"
+                    onclick="changeProductImage('sambawalesbonner-5.jpg', this)">
+                    <img src="sambawalesbonner-5.jpg" alt="Angle 5">
+                </button>
+
+                <button class="gallery-thumb"
+                    onclick="changeProductImage('sambawalesbonner-6.jpg', this)">
+                    <img src="sambawalesbonner-6.jpg" alt="Angle 6">
+                </button>
+
+                <button class="gallery-thumb"
+                    onclick="changeProductImage('sambawalesbonner-7.jpg', this)">
+                    <img src="sambawalesbonner-7.jpg" alt="Angle 7">
+                </button>
+
+                <button class="gallery-thumb"
+                    onclick="changeProductImage('sambawalesbonner-8.jpg', this)">
+                    <img src="sambawalesbonner-8.jpg" alt="Angle 8">
+                </button>
+
+            </div>
+
+        </div>
+
+    </a>
+
+    <div class="product-info">
+
+        <p class="product-category">UNISEX SNEAKERS</p>
+
+        <h3>ADIDAS SAMBA X WALES BONNER SILVER LTD EDTN</h3>
+
+        <div class="price">
+
+            <span class="old-price">₹3,499</span>
+
+            <span class="current-price">₹2,499</span>
+
+        </div>
+
+        <div class="quick-sizes">
+
+            <span>36</span>
+            <span>37</span>
+            <span>38</span>
+            <span>39</span>
+            <span>40</span>
+            <span>41</span>
+            <span>42</span>
+            <span>43</span>
+            <span>44</span>
+            <span>45</span>
+
+        </div>
+
+        <a
+            class="quick-order"
+            href="https://wa.me/919656591308?text=Hi%20Kixor%2C%20I%27d%20like%20to%20order%20Adidas%20Samba%20X%20Wales%20Bonner%20Silver%20LTD%20EDTN."
+            target="_blank">
+
+            ORDER ON WHATSAPP
+
+        </a>
+
+        <button class="add-to-cart" type="button">
+    ADD TO CART
+</button>
+
+    </div>
+
+</article>
+
+<!-- PRODUCT 5 -->
+<article class="product-card" data-category="unisex">
+
+    <a href="#product">
+
+        <div class="product-gallery">
+
+            <div class="gallery-main">
+
+                <span class="sale-badge">SALE</span>
+
+                <img
+                    src="sambaatmos-main.jpg"
+                    alt="Adidas Originals Samba Atmos Black Silver LTD EDTN">
+
+            </div>
+
+            <div class="gallery-thumbs">
+
+                <button class="gallery-thumb active"
+                    onclick="changeProductImage('sambaatmos-main.jpg', this)">
+                    <img
+                        src="sambaatmos-main.jpg"
+                        alt="Adidas Originals Samba Atmos Black Silver front">
+                </button>
+
+                <button class="gallery-thumb"
+                    onclick="changeProductImage('sambaatmos-2.jpg', this)">
+                    <img
+                        src="sambaatmos-2.jpg"
+                        alt="Adidas Originals Samba Atmos Black Silver angle 2">
+                </button>
+
+                <button class="gallery-thumb"
+                    onclick="changeProductImage('sambaatmos-3.jpg', this)">
+                    <img
+                        src="sambaatmos-3.jpg"
+                        alt="Adidas Originals Samba Atmos Black Silver angle 3">
+                </button>
+
+                <button class="gallery-thumb"
+                    onclick="changeProductImage('sambaatmos-4.jpg', this)">
+                    <img
+                        src="sambaatmos-4.jpg"
+                        alt="Adidas Originals Samba Atmos Black Silver angle 4">
+                </button>
+
+                <button class="gallery-thumb"
+                    onclick="changeProductImage('sambaatmos-5.jpg', this)">
+                    <img
+                        src="sambaatmos-5.jpg"
+                        alt="Adidas Originals Samba Atmos Black Silver angle 5">
+                </button>
+
+                <button class="gallery-thumb"
+                    onclick="changeProductImage('sambaatmos-6.jpg', this)">
+                    <img
+                        src="sambaatmos-6.jpg"
+                        alt="Adidas Originals Samba Atmos Black Silver angle 6">
+                </button>
+
+            </div>
+
+        </div>
+
+    </a>
+
+    <div class="product-info">
+
+        <p class="product-category">UNISEX SNEAKERS</p>
+
+        <h3>
+            ADIDAS ORIGINALS SAMBA ATMOS BLACK SILVER LTD EDTN
+        </h3>
+
+        <div class="price">
+
+            <span class="old-price">₹3,499</span>
+
+            <span class="current-price">₹2,499</span>
+
+        </div>
+
+        <div class="quick-sizes">
+
+            <span>36</span>
+            <span>37</span>
+            <span>38</span>
+            <span>39</span>
+            <span>40</span>
+            <span>41</span>
+            <span>42</span>
+            <span>43</span>
+            <span>44</span>
+            <span>45</span>
+
+        </div>
+
+        <a
+            class="quick-order"
+            href="https://wa.me/919656591308?text=Hi%20Kixor%2C%20I%27d%20like%20to%20order%20Adidas%20Originals%20Samba%20Atmos%20Black%20Silver%20LTD%20EDTN."
+            target="_blank"
+            rel="noopener noreferrer">
+
+            ORDER ON WHATSAPP
+
+        </a>
+
+        <button class="add-to-cart" type="button">
+            ADD TO CART
+        </button>
+
+    </div>
+
+</article>
+
+<!-- PRODUCT 6 -->
+<article class="product-card" data-category="men">
+
+    <div class="product-gallery">
+
+        <div class="gallery-main">
+
+            <span class="sale-badge">SALE</span>
+
+            <img
+                src="adidassl72silver-main.jpg"
+                alt="Adidas Originals SL 72 Metallic Silver">
+
+        </div>
+
+        <div class="gallery-thumbs">
+
+            <button class="gallery-thumb active"
+                onclick="changeProductImage('adidassl72silver-main.jpg', this)">
+                <img
+                    src="adidassl72silver-main.jpg"
+                    alt="Adidas Originals SL 72 Metallic Silver front">
+            </button>
+
+            <button class="gallery-thumb"
+                onclick="changeProductImage('adidassl72silver-2.jpg', this)">
+                <img
+                    src="adidassl72silver-2.jpg"
+                    alt="Adidas Originals SL 72 Metallic Silver">
+            </button>
+
+            <button class="gallery-thumb"
+                onclick="changeProductImage('adidassl72silver-3.jpg', this)">
+                <img
+                    src="adidassl72silver-3.jpg"
+                    alt="Adidas Originals SL 72 Metallic Silver">
+            </button>
+
+            <button class="gallery-thumb"
+                onclick="changeProductImage('adidassl72silver-4.jpg', this)">
+                <img
+                    src="adidassl72silver-4.jpg"
+                    alt="Adidas Originals SL 72 Metallic Silver">
+            </button>
+
+            <button class="gallery-thumb"
+                onclick="changeProductImage('adidassl72silver-5.jpg', this)">
+                <img
+                    src="adidassl72silver-5.jpg"
+                    alt="Adidas Originals SL 72 Metallic Silver">
+            </button>
+
+            <button class="gallery-thumb"
+                onclick="changeProductImage('adidassl72silver-6.jpg', this)">
+                <img
+                    src="adidassl72silver-6.jpg"
+                    alt="Adidas Originals SL 72 Metallic Silver">
+            </button>
+
+            <button class="gallery-thumb"
+                onclick="changeProductImage('adidassl72silver-7.jpg', this)">
+                <img
+                    src="adidassl72silver-7.jpg"
+                    alt="Adidas Originals SL 72 Metallic Silver">
+            </button>
+
+            <button class="gallery-thumb"
+                onclick="changeProductImage('adidassl72silver-8.jpg', this)">
+                <img
+                    src="adidassl72silver-8.jpg"
+                    alt="Adidas Originals SL 72 Metallic Silver">
+            </button>
+
+            <button class="gallery-thumb"
+                onclick="changeProductImage('adidassl72silver-9.jpg', this)">
+                <img
+                    src="adidassl72silver-9.jpg"
+                    alt="Adidas Originals SL 72 Metallic Silver">
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <div class="product-info">
+
+        <p class="product-category">MEN'S SNEAKERS</p>
+
+        <h3>ADIDAS ORIGINALS SL 72 METALLIC SILVER</h3>
+
+        <div class="price">
+            <span class="old-price">₹3,899</span>
+            <span class="current-price">₹2,599</span>
+        </div>
+
+
+        <div class="quick-sizes">
+
+            <button class="size-option" data-size="40">40</button>
+            <button class="size-option" data-size="41">41</button>
+            <button class="size-option" data-size="42">42</button>
+            <button class="size-option" data-size="43">43</button>
+            <button class="size-option" data-size="44">44</button>
+            <button class="size-option" data-size="45">45</button>
+
+        </div>
+
+
+        <a
+            class="quick-order"
+            href="https://wa.me/919656591308?text=Hi%2C%20I%20want%20to%20order%20ADIDAS%20ORIGINALS%20SL%2072%20METALLIC%20SILVER"
+            target="_blank"
+            rel="noopener noreferrer">
+
+            ORDER ON WHATSAPP
+
+        </a>
+
+
+        <button class="add-to-cart" type="button">
+            ADD TO CART
+        </button>
+
+    </div>
+
+</article>
+
+<!-- PRODUCT 7 -->
+<article class="product-card" data-category="men">
+
+    <div class="product-gallery">
+
+        <div class="gallery-main">
+
+            <span class="sale-badge">SALE</span>
+
+            <img
+                src="nikenoctawhitesilver-main.jpg"
+                alt="Nike Nocta 2025 White Silver">
+
+        </div>
+
+        <div class="gallery-thumbs">
+
+            <button class="gallery-thumb active"
+                onclick="changeProductImage('nikenoctawhitesilver-main.jpg', this)">
+                <img
+                    src="nikenoctawhitesilver-main.jpg"
+                    alt="Nike Nocta 2025 White Silver front">
+            </button>
+
+            <button class="gallery-thumb"
+                onclick="changeProductImage('nikenoctawhitesilver-2.jpg', this)">
+                <img
+                    src="nikenoctawhitesilver-2.jpg"
+                    alt="Nike Nocta 2025 White Silver">
+            </button>
+
+            <button class="gallery-thumb"
+                onclick="changeProductImage('nikenoctawhitesilver-3.jpg', this)">
+                <img
+                    src="nikenoctawhitesilver-3.jpg"
+                    alt="Nike Nocta 2025 White Silver">
+            </button>
+
+            <button class="gallery-thumb"
+                onclick="changeProductImage('nikenoctawhitesilver-4.jpg', this)">
+                <img
+                    src="nikenoctawhitesilver-4.jpg"
+                    alt="Nike Nocta 2025 White Silver">
+            </button>
+
+            <button class="gallery-thumb"
+                onclick="changeProductImage('nikenoctawhitesilver-5.jpg', this)">
+                <img
+                    src="nikenoctawhitesilver-5.jpg"
+                    alt="Nike Nocta 2025 White Silver">
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <div class="product-info">
+
+        <p class="product-category">MEN'S SNEAKERS</p>
+
+        <h3>NIKE NOCTA 2025 WHITE SILVER</h3>
+
+        <div class="price">
+            <span class="old-price">₹3,999</span>
+            <span class="current-price">₹3,199</span>
+        </div>
+
+
+        <div class="quick-sizes">
+
+            <button class="size-option" data-size="40">40</button>
+            <button class="size-option" data-size="41">41</button>
+            <button class="size-option" data-size="42">42</button>
+            <button class="size-option" data-size="43">43</button>
+            <button class="size-option" data-size="44">44</button>
+            <button class="size-option" data-size="45">45</button>
+
+        </div>
+
+
+        <a
+            class="quick-order"
+            href="https://wa.me/919656591308?text=Hi%2C%20I%20want%20to%20order%20NIKE%20NOCTA%202025%20WHITE%20SILVER"
+            target="_blank"
+            rel="noopener noreferrer">
+
+            ORDER ON WHATSAPP
+
+        </a>
+
+
+        <button class="add-to-cart" type="button">
+            ADD TO CART
+        </button>
+
+    </div>
+
+</article>
+
+<!-- PRODUCT 8 -->
+<article class="product-card" data-category="men">
+
+    <div class="product-gallery">
+
+        <div class="gallery-main">
+
+            <span class="sale-badge">SALE</span>
+
+            <img
+                src="nikenoctawhitered-main.jpg"
+                alt="Nike Nocta 2025 White Red">
+
+        </div>
+
+
+        <div class="gallery-thumbs">
+
+            <button class="gallery-thumb active"
+                onclick="changeProductImage('nikenoctawhitered-main.jpg', this)">
+                <img
+                    src="nikenoctawhitered-main.jpg"
+                    alt="Nike Nocta 2025 White Red front">
+            </button>
+
+            <button class="gallery-thumb"
+                onclick="changeProductImage('nikenoctawhitered-2.jpg', this)">
+                <img
+                    src="nikenoctawhitered-2.jpg"
+                    alt="Nike Nocta 2025 White Red">
+            </button>
+
+            <button class="gallery-thumb"
+                onclick="changeProductImage('nikenoctawhitered-3.jpg', this)">
+                <img
+                    src="nikenoctawhitered-3.jpg"
+                    alt="Nike Nocta 2025 White Red">
+            </button>
+
+            <button class="gallery-thumb"
+                onclick="changeProductImage('nikenoctawhitered-4.jpg', this)">
+                <img
+                    src="nikenoctawhitered-4.jpg"
+                    alt="Nike Nocta 2025 White Red">
+            </button>
+
+            <button class="gallery-thumb"
+                onclick="changeProductImage('nikenoctawhitered-5.jpg', this)">
+                <img
+                    src="nikenoctawhitered-5.jpg"
+                    alt="Nike Nocta 2025 White Red">
+            </button>
+
+            <button class="gallery-thumb"
+                onclick="changeProductImage('nikenoctawhitered-6.jpg', this)">
+                <img
+                    src="nikenoctawhitered-6.jpg"
+                    alt="Nike Nocta 2025 White Red">
+            </button>
+
+            <button class="gallery-thumb"
+                onclick="changeProductImage('nikenoctawhitered-7.jpg', this)">
+                <img
+                    src="nikenoctawhitered-7.jpg"
+                    alt="Nike Nocta 2025 White Red">
+            </button>
+
+            <button class="gallery-thumb"
+                onclick="changeProductImage('nikenoctawhitered-8.jpg', this)">
+                <img
+                    src="nikenoctawhitered-8.jpg"
+                    alt="Nike Nocta 2025 White Red">
+            </button>
+
+            <button class="gallery-thumb"
+                onclick="changeProductImage('nikenoctawhitered-9.jpg', this)">
+                <img
+                    src="nikenoctawhitered-9.jpg"
+                    alt="Nike Nocta 2025 White Red">
+            </button>
+
+            <button class="gallery-thumb"
+                onclick="changeProductImage('nikenoctawhitered-10.jpg', this)">
+                <img
+                    src="nikenoctawhitered-10.jpg"
+                    alt="Nike Nocta 2025 White Red">
+            </button>
+
+            <button class="gallery-thumb"
+                onclick="changeProductImage('nikenoctawhitered-11.jpg', this)">
+                <img
+                    src="nikenoctawhitered-11.jpg"
+                    alt="Nike Nocta 2025 White Red">
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <div class="product-info">
+
+        <p class="product-category">MEN'S SNEAKERS</p>
+
+        <h3>NIKE NOCTA 2025 WHITE RED</h3>
+
+
+        <div class="price">
+            <span class="old-price">₹3,999</span>
+            <span class="current-price">₹3,199</span>
+        </div>
+
+
+        <div class="quick-sizes">
+
+            <button class="size-option" data-size="40">40</button>
+            <button class="size-option" data-size="41">41</button>
+            <button class="size-option" data-size="42">42</button>
+            <button class="size-option" data-size="43">43</button>
+            <button class="size-option" data-size="44">44</button>
+            <button class="size-option" data-size="45">45</button>
+
+        </div>
+
+
+        <a
+            class="quick-order"
+            href="https://wa.me/919656591308?text=Hi%2C%20I%20want%20to%20order%20NIKE%20NOCTA%202025%20WHITE%20RED"
+            target="_blank"
+            rel="noopener noreferrer">
+
+            ORDER ON WHATSAPP
+
+        </a>
+
+
+        <button class="add-to-cart" type="button">
+            ADD TO CART
+        </button>
+
+    </div>
+
+</article>
+
+<!-- PRODUCT 9 -->
+<article class="product-card" data-category="men">
+
+    <div class="product-gallery">
+
+        <div class="gallery-main">
+            <span class="sale-badge">SALE</span>
+
+            <img
+                src="nikereimagineswhitegold-main.jpg"
+                alt="Nike Shox Z Reimagines 2026 White Gold"
+            >
+        </div>
+
+        <div class="gallery-thumbs">
+
+            <button
+                class="gallery-thumb active"
+                onclick="changeProductImage('nikereimagineswhitegold-main.jpg', this)"
+            >
+                <img
+                    src="nikereimagineswhitegold-main.jpg"
+                    alt="Nike Shox Z Reimagines 2026 White Gold"
+                >
+            </button>
+
+            <button
+                class="gallery-thumb"
+                onclick="changeProductImage('nikereimagineswhitegold-2.jpg', this)"
+            >
+                <img
+                    src="nikereimagineswhitegold-2.jpg"
+                    alt="Nike Shox Z Reimagines 2026 White Gold"
+                >
+            </button>
+
+            <button
+                class="gallery-thumb"
+                onclick="changeProductImage('nikereimagineswhitegold-3.jpg', this)"
+            >
+                <img
+                    src="nikereimagineswhitegold-3.jpg"
+                    alt="Nike Shox Z Reimagines 2026 White Gold"
+                >
+            </button>
+
+            <button
+                class="gallery-thumb"
+                onclick="changeProductImage('nikereimagineswhitegold-4.jpg', this)"
+            >
+                <img
+                    src="nikereimagineswhitegold-4.jpg"
+                    alt="Nike Shox Z Reimagines 2026 White Gold"
+                >
+            </button>
+
+            <button
+                class="gallery-thumb"
+                onclick="changeProductImage('nikereimagineswhitegold-5.jpg', this)"
+            >
+                <img
+                    src="nikereimagineswhitegold-5.jpg"
+                    alt="Nike Shox Z Reimagines 2026 White Gold"
+                >
+            </button>
+
+            <button
+                class="gallery-thumb"
+                onclick="changeProductImage('nikereimagineswhitegold-6.jpg', this)"
+            >
+                <img
+                    src="nikereimagineswhitegold-6.jpg"
+                    alt="Nike Shox Z Reimagines 2026 White Gold"
+                >
+            </button>
+
+            <button
+                class="gallery-thumb"
+                onclick="changeProductImage('nikereimagineswhitegold-7.jpg', this)"
+            >
+                <img
+                    src="nikereimagineswhitegold-7.jpg"
+                    alt="Nike Shox Z Reimagines 2026 White Gold"
+                >
+            </button>
+
+            <button
+                class="gallery-thumb"
+                onclick="changeProductImage('nikereimagineswhitegold-8.jpg', this)"
+            >
+                <img
+                    src="nikereimagineswhitegold-8.jpg"
+                    alt="Nike Shox Z Reimagines 2026 White Gold"
+                </button>
+
+        </div>
+    </div>
+
+    <div class="product-info">
+
+        <p class="product-category">MEN'S SNEAKERS</p>
+
+        <h3>NIKE SHOX Z REIMAGINES 2026 WHITE GOLD</h3>
+
+        <div class="price">
+            <span class="old-price">₹3,499</span>
+            <span class="current-price">₹2,499</span>
+        </div>
+
+        <div class="quick-sizes">
+
+            <button class="size-option" data-size="40">40</button>
+            <button class="size-option" data-size="41">41</button>
+            <button class="size-option" data-size="42">42</button>
+            <button class="size-option" data-size="43">43</button>
+            <button class="size-option" data-size="44">44</button>
+            <button class="size-option" data-size="45">45</button>
+
+        </div>
+
+        <a
+            class="quick-order"
+            href="https://wa.me/919656591308?text=Hi%2C%20I%20want%20to%20order%20NIKE%20SHOX%20Z%20REIMAGINES%202026%20WHITE%20GOLD"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            ORDER ON WHATSAPP
+        </a>
+
+        <button class="add-to-cart" type="button">
+            ADD TO CART
+        </button>
+
+    </div>
+
+</article>
+
+<!-- PRODUCT 10 -->
+<article class="product-card" data-category="men">
+
+    <div class="product-gallery">
+
+        <div class="gallery-main">
+            <span class="sale-badge">SALE</span>
+
+            <img
+                src="nikereimaginessilver-main.jpg"
+                alt="Nike Shox Z Reimagines 2026 Silver"
+            >
+        </div>
+
+        <div class="gallery-thumbs">
+
+            <button
+                class="gallery-thumb active"
+                onclick="changeProductImage('nikereimaginessilver-main.jpg', this)"
+            >
+                <img
+                    src="nikereimaginessilver-main.jpg"
+                    alt="Nike Shox Z Reimagines 2026 Silver"
+                >
+            </button>
+
+            <button
+                class="gallery-thumb"
+                onclick="changeProductImage('nikereimaginessilver-2.jpg', this)"
+            >
+                <img
+                    src="nikereimaginessilver-2.jpg"
+                    alt="Nike Shox Z Reimagines 2026 Silver"
+                >
+            </button>
+
+            <button
+                class="gallery-thumb"
+                onclick="changeProductImage('nikereimaginessilver-3.jpg', this)"
+            >
+                <img
+                    src="nikereimaginessilver-3.jpg"
+                    alt="Nike Shox Z Reimagines 2026 Silver"
+                >
+            </button>
+
+            <button
+                class="gallery-thumb"
+                onclick="changeProductImage('nikereimaginessilver-4.jpg', this)"
+            >
+                <img
+                    src="nikereimaginessilver-4.jpg"
+                    alt="Nike Shox Z Reimagines 2026 Silver"
+                >
+            </button>
+
+            <button
+                class="gallery-thumb"
+                onclick="changeProductImage('nikereimaginessilver-5.jpg', this)"
+            >
+                <img
+                    src="nikereimaginessilver-5.jpg"
+                    alt="Nike Shox Z Reimagines 2026 Silver"
+                >
+            </button>
+
+            <button
+                class="gallery-thumb"
+                onclick="changeProductImage('nikereimaginessilver-6.jpg', this)"
+            >
+                <img
+                    src="nikereimaginessilver-6.jpg"
+                    alt="Nike Shox Z Reimagines 2026 Silver"
+                >
+            </button>
+
+            <button
+                class="gallery-thumb"
+                onclick="changeProductImage('nikereimaginessilver-7.jpg', this)"
+            >
+                <img
+                    src="nikereimaginessilver-7.jpg"
+                    alt="Nike Shox Z Reimagines 2026 Silver"
+                >
+            </button>
+
+            <button
+                class="gallery-thumb"
+                onclick="changeProductImage('nikereimaginessilver-8.jpg', this)"
+            >
+                <img
+                    src="nikereimaginessilver-8.jpg"
+                    alt="Nike Shox Z Reimagines 2026 Silver"
+                >
+            </button>
+
+            <button
+                class="gallery-thumb"
+                onclick="changeProductImage('nikereimaginessilver-9.jpg', this)"
+            >
+                <img
+                    src="nikereimaginessilver-9.jpg"
+                    alt="Nike Shox Z Reimagines 2026 Silver"
+                >
+            </button>
+
+        </div>
+    </div>
+
+    <div class="product-info">
+
+        <p class="product-category">MEN'S SNEAKERS</p>
+
+        <h3>NIKE SHOX Z REIMAGINES 2026 SILVER</h3>
+
+        <div class="price">
+            <span class="old-price">₹3,499</span>
+            <span class="current-price">₹2,499</span>
+        </div>
+
+        <div class="quick-sizes">
+
+            <button class="size-option" data-size="40">40</button>
+            <button class="size-option" data-size="41">41</button>
+            <button class="size-option" data-size="42">42</button>
+            <button class="size-option" data-size="43">43</button>
+            <button class="size-option" data-size="44">44</button>
+            <button class="size-option" data-size="45">45</button>
+
+        </div>
+
+        <a
+            class="quick-order"
+            href="https://wa.me/919656591308?text=Hi%2C%20I%20want%20to%20order%20NIKE%20SHOX%20Z%20REIMAGINES%202026%20SILVER"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            ORDER ON WHATSAPP
+        </a>
+
+        <button class="add-to-cart" type="button">
+            ADD TO CART
+        </button>
+
+    </div>
+
+</article>
+
+<!-- PRODUCT 11 -->
+<article class="product-card" data-category="men">
+
+    <div class="product-gallery">
+
+        <div class="gallery-main">
+            <span class="sale-badge">SALE</span>
+
+            <img
+                src="nikereimagineslightbone-main.jpg"
+                alt="Nike Shox Z Reimagines 2026 Light Bone"
+            >
+        </div>
+
+        <div class="gallery-thumbs">
+
+            <button
+                class="gallery-thumb active"
+                onclick="changeProductImage('nikereimagineslightbone-main.jpg', this)"
+            >
+                <img
+                    src="nikereimagineslightbone-main.jpg"
+                    alt="Nike Shox Z Reimagines 2026 Light Bone"
+                >
+            </button>
+
+            <button
+                class="gallery-thumb"
+                onclick="changeProductImage('nikereimagineslightbone-2.jpg', this)"
+            >
+                <img
+                    src="nikereimagineslightbone-2.jpg"
+                    alt="Nike Shox Z Reimagines 2026 Light Bone"
+                >
+            </button>
+
+            <button
+                class="gallery-thumb"
+                onclick="changeProductImage('nikereimagineslightbone-3.jpg', this)"
+            >
+                <img
+                    src="nikereimagineslightbone-3.jpg"
+                    alt="Nike Shox Z Reimagines 2026 Light Bone"
+                >
+            </button>
+
+            <button
+                class="gallery-thumb"
+                onclick="changeProductImage('nikereimagineslightbone-4.jpg', this)"
+            >
+                <img
+                    src="nikereimagineslightbone-4.jpg"
+                    alt="Nike Shox Z Reimagines 2026 Light Bone"
+                >
+            </button>
+
+            <button
+                class="gallery-thumb"
+                onclick="changeProductImage('nikereimagineslightbone-5.jpg', this)"
+            >
+                <img
+                    src="nikereimagineslightbone-5.jpg"
+                    alt="Nike Shox Z Reimagines 2026 Light Bone"
+                >
+            </button>
+
+            <button
+                class="gallery-thumb"
+                onclick="changeProductImage('nikereimagineslightbone-6.jpg', this)"
+            >
+                <img
+                    src="nikereimagineslightbone-6.jpg"
+                    alt="Nike Shox Z Reimagines 2026 Light Bone"
+                >
+            </button>
+
+            <button
+                class="gallery-thumb"
+                onclick="changeProductImage('nikereimagineslightbone-7.jpg', this)"
+            >
+                <img
+                    src="nikereimagineslightbone-7.jpg"
+                    alt="Nike Shox Z Reimagines 2026 Light Bone"
+                >
+            </button>
+
+            <button
+                class="gallery-thumb"
+                onclick="changeProductImage('nikereimagineslightbone-8.jpg', this)"
+            >
+                <img
+                    src="nikereimagineslightbone-8.jpg"
+                    alt="Nike Shox Z Reimagines 2026 Light Bone"
+                >
+            </button>
+
+            <button
+                class="gallery-thumb"
+                onclick="changeProductImage('nikereimagineslightbone-9.jpg', this)"
+            >
+                <img
+                    src="nikereimagineslightbone-9.jpg"
+                    alt="Nike Shox Z Reimagines 2026 Light Bone"
+                >
+            </button>
+
+            <button
+                class="gallery-thumb"
+                onclick="changeProductImage('nikereimagineslightbone-10.jpg', this)"
+            >
+                <img
+                    src="nikereimagineslightbone-10.jpg"
+                    alt="Nike Shox Z Reimagines 2026 Light Bone"
+                >
+            </button>
+
+        </div>
+    </div>
+
+    <div class="product-info">
+
+        <p class="product-category">MEN'S SNEAKERS</p>
+
+        <h3>NIKE SHOX Z REIMAGINES 2026 LIGHT BONE</h3>
+
+        <div class="price">
+            <span class="old-price">₹3,499</span>
+            <span class="current-price">₹2,499</span>
+        </div>
+
+        <div class="quick-sizes">
+
+            <button class="size-option" data-size="40">40</button>
+            <button class="size-option" data-size="41">41</button>
+            <button class="size-option" data-size="42">42</button>
+            <button class="size-option" data-size="43">43</button>
+            <button class="size-option" data-size="44">44</button>
+            <button class="size-option" data-size="45">45</button>
+
+        </div>
+
+        <a
+            class="quick-order"
+            href="https://wa.me/919656591308?text=Hi%2C%20I%20want%20to%20order%20NIKE%20SHOX%20Z%20REIMAGINES%202026%20LIGHT%20BONE"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            ORDER ON WHATSAPP
+        </a>
+
+        <button class="add-to-cart" type="button">
+            ADD TO CART
+        </button>
+
+    </div>
+
+</article>
+
+        </div>
+
+    </section>
+
+    <!-- COLLECTION BANNER -->
+    <section class="collection-banner">
+
+        <div class="collection-content">
+
+            <p class="eyebrow">KIXOR COLLECTION</p>
+
+            <h2>BUILT FOR<br>EVERY MOVE.</h2>
+
+            <a href="#new-arrivals" class="outline-btn">
+                EXPLORE COLLECTION
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- MEN -->
+    <section class="category-section" id="men">
+
+        <p class="eyebrow">SHOP BY CATEGORY</p>
+
+        <h2>Men's Collection</h2>
+
+        <button type="button" class="category-btn" id="shop-men">
+    SHOP MEN →
+</button>
+
+    </section>
+
+    <!-- WOMEN -->
+    <section class="category-section women" id="women">
+
+        <p class="eyebrow">FOR HER</p>
+
+        <h2>Women's Collection</h2>
+
+        <button type="button" class="category-btn" id="shop-women">
+    SHOP WOMEN →
+</button>
+
+    </section>
+
+    <!-- SIZE GUIDE -->
+    <section class="size-guide">
+
+        <div>
+
+            <p class="eyebrow">FIND YOUR FIT</p>
+
+            <h2>Not sure about your size?</h2>
+
+            <p>
+                Use our size comparison guide to find the right fit
+                before placing your order.
+            </p>
+
+            <button class="size-guide-btn" onclick="openSizeGuide()">
+                SIZE GUIDE
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+<footer>
+
+    <div class="footer-logo">
+        <img src="logo.png" alt="Kixor">
+    </div>
+
+    <p>
+        Premium sneakers for your everyday style.
+    </p>
+
+    <div class="footer-links">
+
+        <a href="#new-arrivals">Shop</a>
+
+        <a href="#men">Men</a>
+
+        <a href="#women">Women</a>
+
+        <!-- CONTACT → WHATSAPP -->
+        <a
+            href="https://wa.me/919656591308"
+            target="_blank"
+            rel="noopener noreferrer">
+            Contact
+        </a>
+
+    </div>
+
+    <div class="social-links">
+
+        <!-- INSTAGRAM -->
+        <a
+            href="https://www.instagram.com/kixor.in?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+            target="_blank"
+            rel="noopener noreferrer">
+            Instagram
+        </a>
+
+        <!-- WHATSAPP -->
+        <a
+            href="https://wa.me/919656591308"
+            target="_blank"
+            rel="noopener noreferrer">
+            WhatsApp
+        </a>
+
+    </div>
+
+    <p class="copyright">
+        © 2026 Kixor. All rights reserved.
+    </p>
+
+</footer>
+
+    <!-- SIZE GUIDE POPUP -->
+    <div class="modal" id="sizeModal">
+
+        <div class="modal-content">
+
+            <button class="close-modal" onclick="closeSizeGuide()">
+                ×
+            </button>
+
+            <p class="eyebrow">KIXOR SIZE GUIDE</p>
+
+            <h2>Size Comparison</h2>
+
+            <div class="size-tabs">
+
+    <button class="size-tab active" onclick="showSizeTable('men', this)">
+        MEN
+    </button>
+
+    <button class="size-tab" onclick="showSizeTable('women', this)">
+        WOMEN
+    </button>
+
+</div>
+
+<!-- MEN'S SIZE GUIDE -->
+
+<div class="size-table-wrapper active" id="menSizeTable">
+
+    <h3>Men's Size Guide</h3>
+
+    <table>
+
+        <thead>
+            <tr>
+                <th>UK</th>
+                <th>EU</th>
+                <th>US</th>
+                <th>CM</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>6</td>
+                <td>40</td>
+                <td>7</td>
+                <td>25</td>
+            </tr>
+
+            <tr>
+                <td>7</td>
+                <td>41</td>
+                <td>8</td>
+                <td>26</td>
+            </tr>
+
+            <tr>
+                <td>8</td>
+                <td>42</td>
+                <td>9</td>
+                <td>27</td>
+            </tr>
+
+            <tr>
+                <td>9</td>
+                <td>43</td>
+                <td>10</td>
+                <td>28</td>
+            </tr>
+
+            <tr>
+                <td>10</td>
+                <td>44</td>
+                <td>11</td>
+                <td>29</td>
+            </tr>
+
+            <tr>
+                <td>11</td>
+                <td>45</td>
+                <td>12</td>
+                <td>30</td>
+            </tr>
+
+        </tbody>
+
+    </table>
+
+</div>
+
+<!-- WOMEN'S SIZE GUIDE -->
+
+<div class="size-table-wrapper" id="womenSizeTable">
+
+    <h3>Women's Size Guide</h3>
+
+    <table>
+
+        <thead>
+            <tr>
+                <th>UK</th>
+                <th>EU</th>
+                <th>US</th>
+                <th>CM</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>3</td>
+                <td>36</td>
+                <td>5</td>
+                <td>23</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>37</td>
+                <td>6</td>
+                <td>24</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>38</td>
+                <td>7</td>
+                <td>25</td>
+            </tr>
+
+            <tr>
+                <td>6</td>
+                <td>39</td>
+                <td>8</td>
+                <td>26</td>
+            </tr>
+
+            <tr>
+                <td>7</td>
+                <td>40</td>
+                <td>9</td>
+                <td>27</td>
+            </tr>
+
+            <tr>
+                <td>8</td>
+                <td>41</td>
+                <td>10</td>
+                <td>28</td>
+            </tr>
+
+        </tbody>
+
+    </table>
+
+</div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+    <!-- CART DRAWER -->
+
+<div class="cart-overlay" id="cartOverlay"></div>
+
+<div class="cart-drawer" id="cartDrawer">
+
+    <div class="cart-header">
+
+        <h2>Your Cart</h2>
+
+        <button id="closeCart" type="button">×</button>
+
+    </div>
+
+    <div class="cart-items" id="cartItems">
+
+        <p class="empty-cart">
+            Your cart is empty.
+        </p>
+
+    </div>
+
+    <div class="cart-footer">
+
+        <div class="cart-total">
+
+            <span>Total</span>
+
+            <strong id="cartTotal">
+                ₹0
+            </strong>
+
+        </div>
+
+        <button
+            class="cart-whatsapp"
+            id="cartWhatsApp">
+
+            ORDER ON WHATSAPP
+
+        </button>
+
+    </div>
+
+</div>
+
+<!-- =========================================
+     KIXOR — CUSTOMER DETAILS CHECKOUT
+========================================= -->
+
+<div id="checkoutModal" class="checkout-modal">
+
+    <div class="checkout-box">
+
+        <button
+            type="button"
+            id="closeCheckout"
+            class="checkout-close">
+            ×
+        </button>
+
+        <p class="eyebrow">CHECKOUT</p>
+
+        <h2>Customer Details</h2>
+
+        <form id="checkoutForm">
+
+            <!-- NAME -->
+            <div class="checkout-field">
+                <label for="customerName">Name</label>
+                <input
+                    type="text"
+                    id="customerName"
+                    placeholder="Enter your name"
+                    required>
+            </div>
+
+            <!-- PHONE 1 -->
+            <div class="checkout-field">
+                <label for="phone1">Phone 1</label>
+                <input
+                    type="tel"
+                    id="phone1"
+                    placeholder="Enter phone number"
+                    inputmode="numeric"
+                    maxlength="10"
+                    required>
+            </div>
+
+            <!-- PHONE 2 -->
+            <div class="checkout-field">
+                <label for="phone2">Phone 2 <span>(Optional)</span></label>
+                <input
+                    type="tel"
+                    id="phone2"
+                    placeholder="Enter alternate number"
+                    inputmode="numeric"
+                    maxlength="10">
+            </div>
+
+            <!-- ADDRESS -->
+            <div class="checkout-field">
+                <label for="customerAddress">Address</label>
+                <textarea
+                    id="customerAddress"
+                    placeholder="House name, place, street..."
+                    rows="3"
+                    required></textarea>
+            </div>
+
+            <!-- DISTRICT -->
+            <div class="checkout-field">
+                <label for="customerDistrict">District</label>
+                <input
+                    type="text"
+                    id="customerDistrict"
+                    placeholder="Enter your district"
+                    required>
+            </div>
+
+            <!-- PINCODE -->
+            <div class="checkout-field">
+                <label for="customerPincode">Pincode</label>
+                <input
+                    type="text"
+                    id="customerPincode"
+                    placeholder="Enter pincode"
+                    inputmode="numeric"
+                    maxlength="6"
+                    required>
+            </div>
+
+            <button
+                type="submit"
+                class="checkout-submit">
+                CONTINUE TO WHATSAPP
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
+<!-- =========================================
+     KIXOR CHECKOUT POPUP
+========================================= -->
+
+<div id="checkoutModal" class="checkout-modal">
+
+    <div class="checkout-box">
+
+        <button id="closeCheckout" class="checkout-close">
+            ×
+        </button>
+
+        <p class="checkout-eyebrow">KIXOR CHECKOUT</p>
+
+        <h2>Delivery Details</h2>
+
+        <form id="checkoutForm">
+
+            <input
+                type="text"
+                id="customerName"
+                placeholder="Name"
+                required
+            >
+
+            <input
+                type="tel"
+                id="phone1"
+                placeholder="Phone 1"
+                required
+            >
+
+            <input
+                type="tel"
+                id="phone2"
+                placeholder="Phone 2"
+            >
+
+            <textarea
+                id="customerAddress"
+                placeholder="Address"
+                rows="3"
+                required
+            ></textarea>
+
+            <input
+                type="text"
+                id="customerDistrict"
+                placeholder="District"
+                required
+            >
+
+            <input
+                type="text"
+                id="customerPincode"
+                placeholder="Pincode"
+                inputmode="numeric"
+                required
+            >
+
+            <button type="submit" class="place-order-btn">
+                CONTINUE TO WHATSAPP
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
+
+</body>
+</html>

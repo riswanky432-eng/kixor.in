@@ -405,9 +405,10 @@ Please confirm availability and order details.`;
 
 setTimeout(function () {
     if (searchInput) {
-        searchBox.scrollIntoView({
-            behavior: "smooth",
-            block: "center"
+
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
         });
 
         searchInput.focus();

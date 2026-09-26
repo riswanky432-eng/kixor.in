@@ -403,15 +403,16 @@ Please confirm availability and order details.`;
 
             searchBox.classList.add("active");
 
-            setTimeout(function () {
+setTimeout(function () {
+    if (searchInput) {
+        searchBox.scrollIntoView({
+            behavior: "smooth",
+            block: "center"
+        });
 
-                if (searchInput) {
-
-                    searchInput.focus();
-
-                }
-
-            }, 50);
+        searchInput.focus();
+    }
+}, 50);
 
         });
 

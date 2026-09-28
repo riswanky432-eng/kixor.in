@@ -395,30 +395,29 @@ Please confirm availability and order details.`;
     /* SEARCH BUTTON */
 
     if (searchButton && searchBox) {
+    searchButton.addEventListener("click", function (event) {
+        event.preventDefault();
+        event.stopPropagation();
 
-        searchButton.addEventListener("click", function (event) {
+        searchBox.classList.add("active");
 
-            event.preventDefault();
-            event.stopPropagation();
+        setTimeout(function () {
 
-            searchBox.classList.add("active");
+            // Mobile: page topilekku scroll cheyyuka
+            if (window.innerWidth <= 768) {
+                window.scrollTo({
+                    top: 0,
+                    behavior: "smooth"
+                });
+            }
 
-setTimeout(function () {
-    if (searchInput) {
+            if (searchInput) {
+                searchInput.focus();
+            }
 
-        window.scrollTo({
-            top: 0,
-            behavior: "smooth"
-        });
-
-        searchInput.focus();
-    }
-}, 50);
-
-        });
-
-    }
-
+        }, 100);
+    });
+}
 
     /* LIVE SEARCH */
 

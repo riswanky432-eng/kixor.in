@@ -394,7 +394,7 @@ Please confirm availability and order details.`;
 
     /* SEARCH BUTTON */
 
-    if (searchButton && searchBox) {
+if (searchButton && searchBox) {
     searchButton.addEventListener("click", function (event) {
         event.preventDefault();
         event.stopPropagation();
@@ -403,13 +403,10 @@ Please confirm availability and order details.`;
 
         setTimeout(function () {
 
-            // Mobile: page topilekku scroll cheyyuka
-            if (window.innerWidth <= 768) {
-                window.scrollTo({
-                    top: 0,
-                    behavior: "smooth"
-                });
-            }
+            searchBox.scrollIntoView({
+                behavior: "smooth",
+                block: "start"
+            });
 
             if (searchInput) {
                 searchInput.focus();

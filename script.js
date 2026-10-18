@@ -394,27 +394,29 @@ Please confirm availability and order details.`;
 
     /* SEARCH BUTTON */
 
-if (searchButton && searchBox) {
-    searchButton.addEventListener("click", function (event) {
-        event.preventDefault();
-        event.stopPropagation();
+    if (searchButton && searchBox) {
 
-        searchBox.classList.add("active");
+        searchButton.addEventListener("click", function (event) {
 
-        setTimeout(function () {
+            event.preventDefault();
+            event.stopPropagation();
 
-            searchBox.scrollIntoView({
-                behavior: "smooth",
-                block: "start"
-            });
+            searchBox.classList.add("active");
 
-            if (searchInput) {
-                searchInput.focus();
-            }
+            setTimeout(function () {
 
-        }, 100);
-    });
-}
+                if (searchInput) {
+
+                    searchInput.focus();
+
+                }
+
+            }, 50);
+
+        });
+
+    }
+
 
     /* LIVE SEARCH */
 
